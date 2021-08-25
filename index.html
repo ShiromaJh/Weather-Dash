@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="weather-title">Weather Dashboard</h1>
+    <div class="searchBox">
+      <input
+        type="text"
+        id="search"
+        placeholder="Search for your city"
+        value=""
+      />
+      <button id="searchBtn">Search</button>
+      <div class="searchHistory"></div>
+    </div>
+    <div class="weather-box">
+      <div class="currentWeather">
+        <h3 class="time">Date:</h3>
+        <p id="temp">Temperature:</p>
+        <p id="wind">Wind Speed:</p>
+        <p id="humidity">Humidity:</p>
+      </div>
+      <div class="five-title">
+        <h2 class="fiveDayTitle">5 Day Forecast</h2>
+      </div>
+      <div class="fiveDay">
+        <div class="fiveDayBoxes" id="1">
+          <h4>Day One</h4>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+        </div>
+        <div class="fiveDayBoxes" id="2">
+          <h4>Day Two</h4>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+        </div>
+        <div class="fiveDayBoxes" id="3">
+          <h4>Day Three</h4>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+        </div>
+        <div class="fiveDayBoxes" id="4">
+          <h4>Day Four</h4>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+        </div>
+        <div class="fiveDayBoxes" id="5">
+          <h4>Day Five</h4>
+          <p>Temperature:</p>
+          <p>Wind:</p>
+          <p>Humidity:</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

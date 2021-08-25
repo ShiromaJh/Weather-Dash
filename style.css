@@ -1,0 +1,59 @@
+* {
+  background: beige;
+  flex-direction: none;
+}
+
+.weather-box {
+  text-align: center;
+  color: black;
+}
+
+.forecast {
+  padding-bottom: 15px;
+}
+
+.currentWeather {
+  padding-left: 10px;
+  background: coral;
+}
+
+.date {
+  background: coral;
+}
+#temp {
+  background: coral;
+}
+#wind {
+  background: coral;
+}
+#humidity {
+  background: coral;
+}
+
+.forecastElement {
+  padding: 0px 25px 0px 10px;
+  background-color: coral;
+}
+p {
+  background: coral;
+}
+h4 {
+  background: coral;
+}
+
+.search {
+  float: left;
+  min-width: 25vw;
+}
+
+#search {
+  margin-left: 20px;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  min-width: 80vw;
+  background: coral;
+}
